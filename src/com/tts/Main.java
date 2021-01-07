@@ -10,7 +10,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         // first take the number of lines
-//        System.out.print("Number of data lines: "); // uncomment to make manually entry easier
+//        System.out.print("Number of data lines: "); // uncomment for debugging to make manually entry easier
         int numDataLines = Integer.parseInt(scanner.nextLine());
 
         // now start accepting data rows
@@ -22,11 +22,11 @@ public class Main {
 
         // take the number of queries to come
         ArrayList<String> queries = new ArrayList();
-//        System.out.print("Number of queries: ");
+//        System.out.print("Number of queries: "); // uncomment for debugging to make manually entry easier
         int numQueryLines = Integer.parseInt(scanner.nextLine());
         // now take the query lines
         for(int i=0;i<numQueryLines;i++){
-//            System.out.println("Enter query line number " + (i+1) + ": ");
+//            System.out.println("Enter query line number " + (i+1) + ": "); // uncomment for debugging to make manually entry easier
             queries.add(scanner.nextLine());
         }
 
